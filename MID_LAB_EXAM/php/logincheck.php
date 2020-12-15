@@ -23,7 +23,7 @@ if(!empty($_POST['user']) && !empty($_POST['pass'])) {
     session_start();  
     $_SESSION['sess_user']=$user;  
   
-    /* Redirect browser */  
+   
     header("Location: member.php");  
     }  
     } else {  

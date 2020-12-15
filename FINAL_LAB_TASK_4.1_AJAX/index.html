@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Final Lab Task Ajax</title>
+
+</head>
+<body>
+	<h1 id="h">This is AJAX example</h1>
+
+	<table border="0">
+		<tr>
+			<td>
+				<fieldset>
+					<legend><h3>Person Profile</h3></legend>
+					Name: <input type="text" name="name" id="name" onkeyup="search()"><hr/>
+					Email: <input type="text"id="email"><hr/>
+					Gender:
+					<input type="radio" />Male
+					<input type="radio" />Female
+					<input type="radio" />Other<hr/>
+					Date of Birth: <input type="date" id="birthday" name="birthday"><hr/>
+					Blood Group: <select name="BloodGroup" >
+                    <option value="A+">A+</option><option value="A-">A-</option>
+					<option value="B+">B+</option><option value="B-">B-</option>
+					<option value="O+">O+</option><option value="O-">O-</option>
+					<option value="AB+">AB+</option><option value="AB-">AB-</option>
+					</select><hr/>
+					Degree:<br> 
+					<input type="checkbox" id="SSC" name="SSC" value="SSC">
+					<label for="SSC"> SSC</label><br>
+					<input type="checkbox" id="HSC" name="HSC" value="HSC">
+					<label for="HSC"> HSC</label><br>
+					<input type="checkbox" id="BSC" name="BSC" value="BSC">
+					<label for="BSC"> BSC</label><br>
+					<input type="checkbox" id="MSC" name="MSC" value="MSC">
+					<label for="MSC"> MSC</label><br> 
+					<hr/>
+					<input type="button" name="button" value="Submit" >
+					<input type="button" name="button" value="Reset" >
+					
+				</fieldset>
+			</td>
+		</tr>                                
+	</table>
+</form>
+</center>
+	
+	<div id="search">
+		
+	</div>
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
